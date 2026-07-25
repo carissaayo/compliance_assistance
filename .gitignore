@@ -1,0 +1,56 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local data / uploads (keep sample docs if you want them tracked)
+data/uploads/
+*.pdf
+!data/sample_docs/**/*.pdf
+
+# Logs / runtime
+*.log
+logs/
+
+# Celery / Redis local artifacts (if any)
+celerybeat-schedule
+celerybeat.pid
+
+# Database dumps / local volumes
+*.sql
+*.sqlite3
