@@ -17,8 +17,8 @@ class Settings(BaseSettings):
 
     # Integrations (add now, use in later phases)
     openai_api_key: str = ""
-    database_url: str = "postgresql+psycopg://postgres:postgres@localhost:5432/naijapay_rag"
-    redis_url: str = "redis://localhost:6379/0"
+    database_url: str = "postgresql+psycopg://postgres:postgres@localhost:5440/naijapay_rag"
+    redis_url: str = "redis://localhost:6380/0"
 
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")

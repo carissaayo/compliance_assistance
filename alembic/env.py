@@ -14,8 +14,7 @@ from alembic import context
 
 from app.config import settings
 from app.db.base import Base
-from app.models.document import Document
-from app.models.chunk import Chunk
+import app.models  # noqa: F401
 
 config = context.config
 
