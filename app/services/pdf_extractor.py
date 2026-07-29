@@ -3,7 +3,7 @@ from pathlib import Path
 import pdfplumber
 
 
-def extract_text_by_page(file_path:Path) -> list[dict]:
+def extract_text_by_page(file_path:Path) -> list[dict[str, int | str]]:
     """
     Returns a list of {"page_number": int, "text": str} dicts,
     one per page in the PDF.
