@@ -1,11 +1,13 @@
+from typing import TYPE_CHECKING
+
+from pgvector.sqlalchemy import Vector
 from sqlalchemy import ForeignKey, Integer, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from pgvector.sqlalchemy import Vector
-
 from app.db.base import Base
 
-
+if TYPE_CHECKING:
+    from app.models.document import Document
 class Chunk(Base):
     __tablename__ = "chunks"
 

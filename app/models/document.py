@@ -1,5 +1,6 @@
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from enum import Enum
+from typing import TYPE_CHECKING
 
 from sqlalchemy import DateTime, String
 from sqlalchemy import Enum as SqlEnum
@@ -7,6 +8,8 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db.base import Base
 
+if TYPE_CHECKING:
+    from app.models.chunk import Chunk
 
 class DocumentStatus(Enum):
     pending = "pending"
@@ -28,7 +31,7 @@ class Document(Base):
     )
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
-        default=lambda: datetime.now(timezone.utc),
+        default=lambda: datetime.now(UTC),
         nullable=False,
     )
 
