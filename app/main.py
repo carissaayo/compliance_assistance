@@ -2,6 +2,7 @@ from typing import Annotated
 
 from fastapi import Depends, FastAPI
 from sqlalchemy import text
+from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session
 
 from app.config import settings
@@ -28,7 +29,7 @@ def health_check(db: DbSession):
     try:
         db.execute(text("SELECT 1"))
         db_status = "connected"
-    except Exception:
+    except SQLAlchemyError:
         db_status = "disconnected"
     return {
         "status": "ok",
