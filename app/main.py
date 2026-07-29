@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 
 from app.config import settings
 from app.db.session import get_db
+from app.routers import documents
 
 app = FastAPI(
     title=settings.app_name,
@@ -15,6 +16,8 @@ app = FastAPI(
 )
 
 DbSession = Annotated[Session, Depends(get_db)]
+
+app.include_router(documents.router)
 
 @app.get("/")
 
