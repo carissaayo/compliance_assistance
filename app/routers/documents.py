@@ -1,20 +1,16 @@
 import hashlib
 from pathlib import Path
-from typing import Annotated
 
-from fastapi import APIRouter, Depends, HTTPException, UploadFile
+from fastapi import APIRouter, HTTPException, UploadFile
 from sqlalchemy import select
-from sqlalchemy.orm import Session
 
-from app.db.session import get_db
-from app.models.document import Document
+from app.db.session import DbSession
+from app.models.document import Document, DocumentStatus
 
 router = APIRouter(prefix="/documents", tags=["documents"])
 
 UPLOAD_DIR = Path("data/uploads")
-UPLOAD_DIR.mkdir(exist_ok=True)
-
-DbSession = Annotated[Session, Depends(get_db)] 
+UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 @router.post("/")
 async def upload_document(file: UploadFile, db: DbSession):
@@ -41,7 +37,7 @@ async def upload_document(file: UploadFile, db: DbSession):
     doc = Document(
         filename=file.filename,
         content_hash=content_hash,
-        status="pending",
+        status=DocumentStatus.pending,
     )
 
     db.add(doc)

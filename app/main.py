@@ -1,12 +1,9 @@
-from typing import Annotated
-
-from fastapi import Depends, FastAPI
+from fastapi import FastAPI
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
-from sqlalchemy.orm import Session
 
 from app.config import settings
-from app.db.session import get_db
+from app.db.session import DbSession
 from app.routers import documents
 
 app = FastAPI(
@@ -15,7 +12,6 @@ app = FastAPI(
     debug=settings.debug,
 )
 
-DbSession = Annotated[Session, Depends(get_db)]
 
 app.include_router(documents.router)
 

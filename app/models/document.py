@@ -1,13 +1,14 @@
 from datetime import datetime, timezone
 from enum import Enum
 
-from sqlalchemy import DateTime, Enum as SqlEnum, String
+from sqlalchemy import DateTime, String
+from sqlalchemy import Enum as SqlEnum
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db.base import Base
 
 
-class DocumentStatus(str, Enum):
+class DocumentStatus(Enum):
     pending = "pending"
     processing = "processing"
     completed = "completed"
