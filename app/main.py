@@ -1,15 +1,19 @@
-from fastapi import FastAPI, Depends
+from typing import Annotated
+
+from fastapi import Depends, FastAPI
 from sqlalchemy import text
 from sqlalchemy.orm import Session
+
 from app.config import settings
 from app.db.session import get_db
-
 
 app = FastAPI(
     title=settings.app_name,
     version=settings.app_version,
     debug=settings.debug,
 )
+
+DbSession = Annotated[Session, Depends(get_db)]
 
 @app.get("/")
 
@@ -20,7 +24,7 @@ def read_root():
         }
 
 @app.get("/health")
-def health_check(db: Session = Depends(get_db)):
+def health_check(db: DbSession):
     try:
         db.execute(text("SELECT 1"))
         db_status = "connected"
