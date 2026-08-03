@@ -3,26 +3,32 @@ def chunk_pages(
     chunk_size: int = 1600,
     overlap: int = 240,
 ) -> list[dict]:
-    chunks = []
+    if overlap >= chunk_size:
+            raise ValueError("overlap must be smaller than chunk_size")
+
+    chunks: list[dict[str, int | str]] = []
     step = chunk_size - overlap
-    position= 0
+
     
     for page in pages:
-        content= page["text"]
-        page_number = page['page_number']
+        content = str(page["text"]).strip()
+        if not content:
+            continue
+
         start=0
         while start < len(content):
-            position += 1
             window = content[start : start + chunk_size]
 
             chunks.append(
                 {
                     "content": window,
-                    "page_reference": page_number,
-                    "position": position,
+                    "token_count": max(1, len(window) // 4),
+                    "page_reference": str(page["page_number"]),
+                    "position": len(chunks),
                 }
             )
-
+            if start + chunk_size >= len(content):
+                break
             start += step
 
-           
+    return chunks
