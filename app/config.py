@@ -1,5 +1,7 @@
-from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import Literal
+
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
 
 class Settings(BaseSettings):
        # App metadata
@@ -14,8 +16,10 @@ class Settings(BaseSettings):
     # Server
     host: str = "127.0.0.1"
     port: int = 8000
-
-    # Integrations (add now, use in later phases)
+    embedding_provider: Literal["openai", "ollama"] = "ollama"
+    embedding_model: str = "nomic-embed-text"
+    embedding_dimensions: int = 768
+    ollama_base_url: str = "http://localhost:11434"
     openai_api_key: str = ""
     database_url: str = "postgresql+psycopg://postgres:postgres@localhost:5440/naijapay_rag"
     redis_url: str = "redis://localhost:6380/0"
