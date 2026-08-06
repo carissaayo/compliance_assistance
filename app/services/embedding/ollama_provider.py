@@ -22,5 +22,10 @@ class OllamaEmbeddingProvider:
                 )
                 response.raise_for_status()
                 data = response.json()
+                dims = settings.embedding_dimensions
+                if len(data["embedding"]) != dims:
+                    raise ValueError(
+                        f"Expected {dims} dims, got {len(data['embedding'])} from {self.model}"
+                        )
                 vectors.append(data['embedding'])
         return vectors
