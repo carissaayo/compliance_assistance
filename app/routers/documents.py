@@ -6,6 +6,8 @@ from sqlalchemy import select
 
 from app.db.session import DbSession
 from app.models.document import Document, DocumentStatus
+from app.services.get_document import get_document_by_id
+from app.services.ingestion import ingest_document
 
 router = APIRouter(prefix="/documents", tags=["documents"])
 
@@ -43,11 +45,29 @@ async def upload_document(file: UploadFile, db: DbSession):
     db.add(doc)
     db.commit()
     db.refresh(doc)
-
+    
+    ingest_document(db, doc, save_path)
+    
     return {
         "id": doc.id,
         "filename": doc.filename,
         "content_hash": doc.content_hash,
         "status": doc.status,
         "message": "Document uploaded successfully",
+    }
+
+
+@router.get("/{document_id}")
+async def get_document(document_id: int, db: DbSession):
+    document= get_document_by_id(document_id, db)
+    if document is None:
+        raise HTTPException(status_code=404, detail="Document not found")
+
+    return {
+        "id": document.id,
+        "filename": document.filename,
+        "content_hash": document.content_hash,
+        "status": document.status,
+        "created_at": document.created_at,
+        "chunk_count": len(document.chunks),
     }

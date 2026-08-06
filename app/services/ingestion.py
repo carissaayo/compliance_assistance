@@ -19,7 +19,7 @@ def ingest_document(db: Session, document: Document, file_path:Path) ->Document:
         for item in chunk_data:
             db.add(
                 Chunk(
-                documet_id = document.id,
+                document_id = document.id,
                 position = item['position'],
                 content = item['content'],
                 token_count =item["token_count"],
@@ -32,7 +32,10 @@ def ingest_document(db: Session, document: Document, file_path:Path) ->Document:
         db.refresh(document)
         return document
     except Exception:
-        document.status = DocumentStatus.failed
         db.rollback()
-        db.commit()
+        document = db.get(Document, document.id)
+        if document is not None:
+            document.status = DocumentStatus.failed
+            db.commit()
+            
         raise
