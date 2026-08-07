@@ -11,9 +11,14 @@ def retrieve_vector(db: DbSession, question: str):
     query_vector = provider.embed([question])[0]
 
     distance = Chunk.embedding.cosine_distance(query_vector).label("distance")
-    stmt = select(Chunk,distance).order_by(distance).limit(5)
+    stmt = (
+        select(Chunk, distance)
+        .where(Chunk.embedding.is_not(None))
+        .order_by(distance)
+        .limit(5)
+    )
+    rows = db.execute(stmt).all() 
 
-    chunks = db.execute(stmt).scalars().all()
 
 
     return [
@@ -21,7 +26,7 @@ def retrieve_vector(db: DbSession, question: str):
             content=chunk.content,
             page_reference=chunk.page_reference,
             position=chunk.position,
-            score= score,
+            score= float(dist),
         )
-        for chunk, score in chunks
+        for chunk, dist in rows
     ]

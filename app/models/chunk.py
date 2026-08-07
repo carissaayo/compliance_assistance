@@ -1,7 +1,8 @@
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
 
 from pgvector.sqlalchemy import Vector
 from sqlalchemy import ForeignKey, Integer, String, Text
+from sqlalchemy.dialects.postgresql import TSVECTOR
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db.base import Base
@@ -22,5 +23,10 @@ class Chunk(Base):
     token_count: Mapped[int] = mapped_column(Integer, nullable=False)
     page_reference: Mapped[str | None] = mapped_column(String(50), nullable=True)
     embedding: Mapped[list[float] | None] = mapped_column(Vector(768), nullable=True)
+    # search_vector: Mapped[Any] = mapped_column(
+    #     TSVECTOR,
+    #     nullable=True,
+    # )
+    
 
     document: Mapped["Document"] = relationship(back_populates="chunks")

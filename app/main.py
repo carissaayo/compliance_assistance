@@ -4,7 +4,7 @@ from sqlalchemy.exc import SQLAlchemyError
 
 from app.config import settings
 from app.db.session import DbSession
-from app.routers import documents
+from app.routers import documents, questions
 
 app = FastAPI(
     title=settings.app_name,
@@ -14,6 +14,7 @@ app = FastAPI(
 
 
 app.include_router(documents.router)
+app.include_router(questions.router)
 
 @app.get("/")
 
