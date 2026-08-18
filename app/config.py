@@ -21,6 +21,9 @@ class Settings(BaseSettings):
     embedding_dimensions: int = 768
     ollama_base_url: str = "http://localhost:11434"
     openai_api_key: str = ""
+    llm_provider: Literal["openai", "ollama"] = "ollama"
+    llm_model: str = "qwen3:8b"
+    retrieval_max_distance: float = 0.6  # refuse above this (cosine distance)
     database_url: str = "postgresql+psycopg://postgres:postgres@localhost:5440/naijapay_rag"
     redis_url: str = "redis://localhost:6380/0"
 
