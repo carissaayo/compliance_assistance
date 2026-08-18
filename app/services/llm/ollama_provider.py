@@ -13,7 +13,7 @@ class OllamaLLMProvider:
         self.model = model
 
     def generate(self, prompt: str) -> str:
-        with httpx.Client(timeout=120.0) as client:
+        with httpx.Client(timeout=300.0) as client:  # 5 minutes for local 8B + long context:
             response = client.post(
                 f"{self.base_url}/api/chat",
                 json={

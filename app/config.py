@@ -20,6 +20,7 @@ class Settings(BaseSettings):
     embedding_model: str = "nomic-embed-text"
     embedding_dimensions: int = 768
     ollama_base_url: str = "http://localhost:11434"
+    ollama_chat_timeout: float = 300.0
     openai_api_key: str = ""
     llm_provider: Literal["openai", "ollama"] = "ollama"
     llm_model: str = "qwen3:8b"
