@@ -1,3 +1,5 @@
+import httpx
+
 from app.config import settings
 from app.db.session import DbSession
 from app.models.answer_response import AnswerResponse
@@ -9,12 +11,23 @@ INSUFFICIENT_GROUNDING_MESSAGE = (
     "I don't have enough grounding in the uploaded documents to answer that."
 )
 
+LLM_TIMEOUT_MESSAGE = (
+    "The language model took too long to respond. Try again or use a shorter question."
+)
+
+GENERATION_TOP_K = 3
+MAX_CONTEXT_CHARS = 6000
+
 
 def format_context(chunks: list[ChunkResponse]) -> str:
     parts: list[str] = []
-    for index, chunk in enumerate(chunks, start=1):
-        page = chunk.page_reference or "unknown"
-        parts.append(f"[{index}] (page {page})\n{chunk.content}")
+    used = 0
+    for i, chunk in enumerate(chunks, start=1):
+        block = f"[{i}] (page {chunk.page_reference or 'unknown'})\n{chunk.content}"
+        if used + len(block) > MAX_CONTEXT_CHARS:
+            break
+        parts.append(block)
+        used += len(block)
     return "\n\n".join(parts)
 
 
@@ -27,6 +40,7 @@ Rules:
 - If the excerpts do not contain the answer, say you cannot answer from the documents.
 - Do not use general knowledge.
 - Keep the answer concise and factual.
+- End with: "This is not legal or tax advice. Verify against the source documents."
 
 Question:
 {question}
@@ -38,6 +52,7 @@ Excerpts:
 
 def generate_answer(db: DbSession, question: str) -> AnswerResponse:
     chunks = retrieve_vector(db, question)
+    prompt_chunks = chunks[:GENERATION_TOP_K]
 
     if not chunks or chunks[0].score > settings.retrieval_max_distance:
         return AnswerResponse(
@@ -46,12 +61,20 @@ def generate_answer(db: DbSession, question: str) -> AnswerResponse:
             sources=[],
         )
 
-    context = format_context(chunks)
+    context = format_context(prompt_chunks)
     prompt = build_prompt(question, context)
-    answer = get_llm_provider().generate(prompt)
+
+    try:
+        answer = get_llm_provider().generate(prompt)
+    except httpx.ReadTimeout:
+        return AnswerResponse(
+            answer=LLM_TIMEOUT_MESSAGE,
+            grounded=False,
+            sources=[],
+        )
 
     return AnswerResponse(
         answer=answer,
         grounded=True,
-        sources=chunks,
+        sources=prompt_chunks,
     )
