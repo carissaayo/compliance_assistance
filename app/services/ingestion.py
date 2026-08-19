@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 
 from app.models.chunk import Chunk
@@ -35,6 +36,7 @@ def ingest_document(db: Session, document: Document, file_path:Path) ->Document:
                 token_count =item["token_count"],
                 page_reference = item['page_reference'],
                 embedding= vector,
+                search_vector=func.to_tsvector("english", item["content"]),
             ))
 
         document.status = DocumentStatus.completed
