@@ -6,16 +6,13 @@ from app.models.chunk_response import ChunkResponse
 from app.services.embedding.factory import get_embedding_provider
 
 
-def retrieve_vector(db: DbSession, question: str):
+def retrieve_vector(db: DbSession, question: str, top_k: int = 5):
     provider = get_embedding_provider()
     query_vector = provider.embed([question])[0]
 
     distance = Chunk.embedding.cosine_distance(query_vector).label("distance")
     stmt = (
-        select(Chunk, distance)
-        .where(Chunk.embedding.is_not(None))
-        .order_by(distance)
-        .limit(5)
+        select(Chunk, distance).where(Chunk.embedding.is_not(None)).order_by(distance).limit(top_k)
     )
     rows = db.execute(stmt).all() 
 
