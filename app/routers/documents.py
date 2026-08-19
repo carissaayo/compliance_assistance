@@ -14,26 +14,35 @@ router = APIRouter(prefix="/documents", tags=["documents"])
 UPLOAD_DIR = Path("data/uploads")
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
+ACCEPTED_CONTENT_TYPES = {
+    "application/pdf": ".pdf",
+    "text/plain": ".txt",
+}
+
+
 @router.post("/")
 async def upload_document(file: UploadFile, db: DbSession):
-    if file.content_type != "application/pdf":
-        raise HTTPException(status_code=400, detail="Only PDF files are accepted")
+    extension = ACCEPTED_CONTENT_TYPES.get(file.content_type or "")
+    if extension is None:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported file type '{file.content_type}'. Accepted: PDF, plain text.",
+        )
 
     contents = await file.read()
     content_hash = hashlib.sha256(contents).hexdigest()
 
     existing = db.scalar(select(Document).where(Document.content_hash == content_hash))
     if existing:
-        return {    
-            "id":existing.id,
+        return {
+            "id": existing.id,
             "filename": existing.filename,
             "content_hash": existing.content_hash,
-            "status":existing.status,
-            "message":"Document already exists - skipped re-uploading",
+            "status": existing.status,
+            "message": "Document already exists - skipped re-uploading",
         }
-    
 
-    save_path = UPLOAD_DIR / f"{content_hash}.pdf"
+    save_path = UPLOAD_DIR / f"{content_hash}{extension}"
     save_path.write_bytes(contents)
     
     doc = Document(

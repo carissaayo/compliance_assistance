@@ -1,0 +1,343 @@
+NSITF — Employee's Compensation Act 2010 (No. 13 of 2010)
+==========================================================
+Source: Federal Republic of Nigeria Official Gazette
+Legal Basis: Employees' Compensation Act, 2010, No. 13
+Administering Body: Nigeria Social Insurance Trust Fund (NSITF) Management Board
+Note: This file contains Parts 1, 2 (employer obligations only), and 6 of the Act,
+which are directly relevant to employer payroll compliance and contribution obligations.
+
+================================================================================
+PART I — PRELIMINARY PROVISIONS
+================================================================================
+
+SECTION 1 — OBJECTIVES OF THE ACT
+-----------------------------------
+The objectives of the Act are to:
+
+(a) Provide for an open and fair system of guaranteed and adequate compensation
+    for all employees or their dependants for any death, injury, disease or
+    disability arising out of or in the course of employment.
+
+(b) Provide rehabilitation to employees with work-related disabilities as
+    provided in this Act.
+
+(c) Establish and maintain a solvent compensation fund managed in the interest
+    of employees and employers.
+
+(d) Provide for fair and adequate assessments for employers.
+
+(e) Provide an appeal procedure that is simple, fair and accessible, with
+    minimal delays.
+
+(f) Combine efforts and resources of relevant stakeholders for the prevention
+    of workplace disabilities, including the enforcement of occupational safety
+    and health standards.
+
+SECTION 2 — SCOPE AND APPLICATION
+------------------------------------
+(1) Subject to the provisions of sections 3 and 70 of this Act, this Act shall
+apply to ALL EMPLOYERS AND EMPLOYEES in the public and private sectors in
+the Federal Republic of Nigeria.
+
+(2) The Nigeria Social Insurance Trust Fund Management Board (referred to as
+"the Board") shall have power to implement this Act and the Fund established
+under section 56 of this Act.
+
+SECTION 3 — EXEMPTIONS
+------------------------
+Without prejudice to the generality of section 2, this Act shall NOT apply to
+any member of the armed forces of the Federal Republic of Nigeria, other than
+a person employed in a civilian capacity.
+
+================================================================================
+PART II — EMPLOYER REPORTING OBLIGATIONS (Selected)
+================================================================================
+
+SECTION 5 — EMPLOYER'S OBLIGATION TO REPORT DEATH, INJURY OR DISEASE
+-----------------------------------------------------------------------
+(1) An employer shall report to the Board and the nearest office of the National
+Council for Occupational Safety and Health in the State WITHIN 7 DAYS of its
+occurrence, every injury to an employee that arises out of and in the course of
+employment.
+
+(2) An employer shall report to the Board, within 7 days of receiving information
+under section 4 of this Act, every disabling occupational disease or claim for
+or allegation of an occupational disease.
+
+(3) An employer shall IMMEDIATELY report the death of an employee arising out
+of and in the course of employment to the Board and to the local representative
+of the Board.
+
+(4) A report under this section shall state:
+    (a) the name and address of the employee;
+    (b) the time and place of the disease, injury or death;
+    (c) the nature of the injury or alleged injury;
+    (d) the name and address of any specialist or accredited medical practitioner
+        who attended to the employee; and
+    (e) any other particular required by the Board.
+
+(5) Failure to make a required report, unless allowed by the Board for sufficient
+reason, constitutes an offence under this Act.
+
+SECTION 14 — CONTRIBUTION BY EMPLOYEES FOR COMPENSATION PROHIBITED
+-------------------------------------------------------------------
+(1) No employer shall, either directly or indirectly, deduct from the remuneration
+of an employee any part of a sum which the employer is or may become liable
+to pay into the Fund, or require or permit the employee to contribute in any
+manner towards indemnifying the employer against liability under this Act.
+
+(2) Any person who contravenes sub-section (1) commits an offence and shall:
+    (a) be liable on conviction to imprisonment for a term not exceeding 1 year,
+        or a fine of not less than NGN 100,000, or both; AND
+    (b) repay to the employee any sum which has been so deducted from the
+        employee's remuneration.
+
+(3) Where the offence was committed by a body corporate, it shall:
+    (a) be liable on conviction to a fine of not less than NGN 1,000,000; AND
+    (b) repay to the employee any sum so deducted.
+
+IMPORTANT: NSITF contributions are an EMPLOYER-ONLY obligation.
+           Employers may NOT deduct NSITF contributions from employee salaries.
+
+================================================================================
+PART VI — EMPLOYERS' ASSESSMENT AND CONTRIBUTIONS
+================================================================================
+
+SECTION 33 — EMPLOYERS' CONTRIBUTION TO THE FUND
+--------------------------------------------------
+(1) Every employer shall, within the first 2 years of the commencement of this
+Act, make a MINIMUM MONTHLY CONTRIBUTION OF 1.0% (one percent) of the total
+monthly payroll into the Fund.
+
+(2) The Board shall, from time to time, make regulations prescribing:
+    (a) the categorization of risk factors of each class or sub-class of industry,
+        sector or workplace and the amount of contributions to be made into the
+        Fund; and
+    (b) different assessment rates applicable to each class and sub-class of
+        industry, sector or workplace.
+
+CONTRIBUTION RATE SUMMARY:
+  Rate:  Minimum 1% of total monthly payroll
+  Paid by: EMPLOYER ONLY (employees do not contribute)
+  Base:  Total monthly payroll / total emoluments
+  Purpose: Workplace injury compensation insurance
+
+SECTION 34 — ASSESSMENTS
+--------------------------
+(1) The Board shall assess employers for such sums in such manner, form and
+procedure as the Board may determine.
+
+(2) Assessments shall, in the first instance, be based upon estimates of:
+    (a) the employer's payroll for the year (provided under section 39); or
+    (b) as determined by the Board under its merit rating system.
+
+(3) The Board may, by order, establish a minimum assessment.
+
+SECTION 35 — ASSESSMENT PAYABLE
+---------------------------------
+(1) Payment of any assessment made under section 33 shall be due on
+1 January in the year for which it relates.
+
+(2) The Board may provide for payment of assessment by installment, payable
+on dates determined by the Board.
+
+SECTION 36 — LIABILITY FOR ASSESSMENT
+---------------------------------------
+(1) The Board shall have a cause of action for any unpaid assessment and shall
+be entitled to costs of any action to recover unpaid assessment.
+
+(2) If, for any reason, an employer liable to assessment is not assessed by the
+Board, the employer shall still be liable for the amount for which they should
+have been assessed.
+
+SECTION 37 — ASSESSMENT RATES
+--------------------------------
+(1) The Board may provide for different assessment rates applicable to each
+class and sub-class of industry.
+
+(2) Publication in the Federal Gazette of percentages and rates fixed by the
+Board applicable to specific industries constitutes an assessment upon, and
+notice to, each employer in those industries.
+
+SECTION 38 — EMPLOYER CLASSIFICATION
+--------------------------------------
+(1) The Board may establish classes and sub-classes of industries.
+
+(2) The Board shall assign every employer to an appropriate class or sub-class
+based upon the industry in which the employer operates.
+
+(3) The Board may by regulations create, divide, consolidate, rearrange, or
+transfer employers and industries between classes and sub-classes.
+
+SECTION 39 — EMPLOYER TO PROVIDE ESTIMATE OF PAYROLLS
+-------------------------------------------------------
+(1) Every employer shall:
+    (a) keep complete and accurate particulars of the employer's payrolls at
+        all times at a place in Nigeria, the address of which has been given
+        to the Board;
+    (b) furnish to the Board:
+        (i)  when the employer becomes an employer within the scope of this Act;
+        (ii) at other times as required by regulations — an estimate of the
+             probable amount of the payroll of each of the employer's industries;
+        (iii) provide signed copies of reports of the employer's payrolls, not
+              later than 31 December in each year or at such other times as
+              required by the Board.
+
+(2) Where the employer fails to comply, the employer is liable to pay a penalty
+percentage of the assessment as prescribed by regulations, and the Board may
+make its own estimate of the payrolls and assess on that estimate.
+
+(4) If an employer does not comply, or if a statement is not true and accurate,
+the employer shall be liable to:
+    - Imprisonment for a term not exceeding 1 year, OR
+    - A fine of not less than NGN 100,000 (individual), OR
+    - A fine of not less than NGN 1,000,000 (body corporate), AND
+    - Each director, manager or officer of the body corporate shall be deemed
+      to have committed the offence.
+
+SECTION 40 — STATEMENT AND ESTIMATE OF EARNINGS
+-------------------------------------------------
+(1) Every employer shall, not later than the LAST DAY OF FEBRUARY each year,
+provide to the Board a statement of:
+    (a) the total amount of all earnings paid to its employees in the preceding year;
+    (b) an estimate of the earnings that will be paid to its employees in the
+        current year;
+    (c) the nature of the work activities; and
+    (d) any additional information as the Board may require.
+
+(2) If the statement is found to be incorrect, the Board shall reassess the
+employer for each year the statement was incorrectly made and may charge
+interest on any assessment not paid.
+
+(3) Employers shall declare the earnings of employees employed outside Nigeria
+as if they were employed in Nigeria.
+
+SECTION 41 — EMPLOYER'S EXPERIENCE ACCOUNTS
+---------------------------------------------
+(1) The Board shall maintain experience accounts for each employer, indicating
+the assessments levied and the cost of all claims chargeable in respect of
+the employer.
+
+SECTION 42 — SUPER ASSESSMENT
+-------------------------------
+(1) If, in any year, the claims cost charged to an employer's experience account
+exceeds 105% of the ordinary assessment, the Board may assess a super-assessment
+of up to 133% of the employer's ordinary assessment for that year.
+
+SECTION 43 — MERIT RATING
+---------------------------
+The Board may adopt a system of merit rating for employers.
+
+SECTION 44 — LIABILITY FOR INDEPENDENT CONTRACTORS AND SUB-CONTRACTORS
+------------------------------------------------------------------------
+(1) Where any person or organization employs an independent contractor to
+perform work in a workplace, BOTH the organization and the independent
+contractor shall be jointly liable for any assessment under this Act.
+
+(2) Where work is performed under a sub-contract, the principal, contractor
+and sub-contractor shall be jointly liable for any assessment.
+
+SECTION 45 — SECURITY FOR PAYMENT OF ASSESSMENT
+-------------------------------------------------
+(1) The Board may serve notice on an employer requiring the employer to provide
+security for the payment of assessments.
+
+(3) The employer shall, within 30 days after being served with notice, provide
+the required security.
+
+SECTION 46 — PENALTY FOR NON-PAYMENT OF ASSESSMENT
+----------------------------------------------------
+If an assessment is not paid when required, or security is not provided when
+required, the Board may assess a PENALTY of an amount equal to 10% of the
+unpaid assessment or the value of the security required.
+
+SECTION 47 — OFFENCES
+-----------------------
+If an employer:
+    (a) defaults in providing the security required by the Board;
+    (b) defaults in the payment of any amount due to the Fund; or
+    (c) contravenes any decisions of the Board,
+the employer commits an offence under this Act.
+
+SECTION 48 — PROVISIONAL ASSESSMENT
+-------------------------------------
+(1) Where an employer fails to comply with section 39, or the information
+provided does not reflect the probable payroll amount, the Board may assess
+such sum as it considers to be the probable payroll of the employer.
+
+(2) If the provisional assessment differs from the required assessment, the
+employer or the Board shall be liable to pay the other the difference.
+
+SECTION 49 — TEMPORARY INDUSTRY
+---------------------------------
+Where an employer engages in an industry within the scope of this Act and has
+not been assessed, the Board may require the employer to pay or give security
+for the payment to the Fund of a sum sufficient to pay the assessment for
+which the employer may be liable.
+
+SECTION 50 — EMPLOYER COMMENCING OR RECOMMENCING A BUSINESS
+-------------------------------------------------------------
+When an employer commences or recommences a business, the employer shall
+provide, WITHIN 30 DAYS of commencement or recommencement, to the Board
+the statements required under section 51 of this Act.
+
+SECTION 51 — EMPLOYER CEASING TO BE AN EMPLOYER
+-------------------------------------------------
+A person who ceases to be an employer shall notify the Board WITHIN 30 DAYS
+of cessation and shall provide a statement of the total payroll for the year.
+
+SECTION 52 — RECORDS OF REMUNERATION AND OPERATIONS
+-----------------------------------------------------
+Every employer shall keep an accurate account of all remuneration paid to its
+employees and of any other particular of its operations as may be required by
+the Board.
+
+SECTION 53 — EXAMINATION (BOARD AUDIT POWERS)
+-----------------------------------------------
+(1) Any person authorized by the Board may examine the books and accounts
+of any employer as the Board deems necessary for administering this Act.
+
+(2) For the purposes of administration of this Act, any authorized person may,
+at all reasonable hours, enter any part of the establishment of any employer.
+
+(3) An employer shall produce, within 30 days of receiving notice from the Board,
+all documents, deeds, papers and computer records relating to the subject
+matter of an examination.
+
+(6) An employer who obstructs an examination or refuses to produce documents
+commits an offence.
+
+SECTION 54 — ENFORCEMENT POWERS
+---------------------------------
+An officer of the Board may, for the purposes of carrying out duties under this Act:
+    (a) enter any workplace at any time with or without warrant or notice;
+    (b) require production of any licence, document, record or report;
+    (c) remove documents for the purpose of making copies or extracts;
+    (d) make enquiries of any person in a workplace; and
+    (e) require that records not be disturbed for a reasonable period during
+        an examination, investigation or enquiry.
+
+SECTION 55 — RIGHT OF APPEAL
+------------------------------
+A person aggrieved by any decision of the Board may appeal to the Board for
+a review of such decision.
+
+================================================================================
+SUMMARY: KEY NSITF OBLIGATIONS FOR EMPLOYERS (PAYROLL COMPLIANCE)
+================================================================================
+
+| Obligation                    | Requirement                                      |
+|-------------------------------|--------------------------------------------------|
+| Contribution rate             | Minimum 1% of total monthly payroll              |
+| Who pays                      | EMPLOYER ONLY — employees cannot be charged      |
+| Payment due                   | 1 January for the year; installments permitted   |
+| Annual payroll statement      | File by 31 January each year (Statement & Est.)  |
+| Annual payroll report         | Signed copies by 31 December each year           |
+| New employer registration     | Within 30 days of commencing business            |
+| Ceasing to be an employer     | Notify Board within 30 days                      |
+| Late payment penalty          | 10% of unpaid assessment                         |
+| Failure to file payroll data  | Fine of NGN 100,000 (individual) /               |
+|                               | NGN 1,000,000 (corporate) + possible imprisonment|
+| Deducting NSITF from employee | PROHIBITED — criminal offence                    |
+| NSITF base                    | Total emoluments (same base as pension CPS)      |
+================================================================================

@@ -1,0 +1,373 @@
+Nigeria PAYE & Personal Income Tax Guide 2026
+===============================================
+Source: CountryTaxCalc.com | Presidential Fiscal Policy & Tax Reforms Committee
+Effective Date: 1 January 2026
+
+================================================================================
+SECTION 1: 2026 TAX REFORM RELIEFS AND EXEMPTIONS SUMMARY
+================================================================================
+
+From 1 January 2026, the new tax laws provide many reliefs and exemptions for
+low-income earners, average taxpayers, and small businesses.
+
+PERSONAL INCOME TAX / PAYE
+---------------------------
+- Individuals earning the national minimum wage or less: EXEMPT
+- Annual gross income up to NGN 1,200,000 (approx. NGN 800,000 taxable income): EXEMPT
+- Reduced PAYE tax for those earning annual gross income up to NGN 20 million
+- Gifts: EXEMPT
+
+ALLOWABLE DEDUCTIONS AND RELIEFS FOR INDIVIDUALS
+-------------------------------------------------
+- Pension contribution to PFA (Pension Fund Administrator)
+- National Health Insurance Scheme (NHIS)
+- National Housing Fund (NHF) contributions
+- Interest on loans for owner-occupied residential housing
+- Life insurance or annuity premiums
+- Rent relief: 20% of annual rent (up to NGN 500,000)
+
+PENSIONS AND GRATUITIES — EXEMPT
+---------------------------------
+- Pension funds and assets under the Pension Reform Act (PRA) are tax-exempt
+- Pension, gratuity or any retirement benefits granted in line with the PRA
+- Compensation for loss of employment up to NGN 50 million
+
+CAPITAL GAINS TAX (CGT) — EXEMPT
+----------------------------------
+- Sale of an owner-occupied house
+- Personal effects or chattels worth up to NGN 5 million
+- Sale of up to two private vehicles per year
+- Gains on shares below NGN 150 million per year or gains up to NGN 10 million
+- Gains on shares above exemption threshold if proceed is reinvested
+- Pension funds, charities, and religious institutions (non-commercial)
+
+COMPANIES INCOME TAX (CIT) — EXEMPT/RELIEF
+--------------------------------------------
+- Small companies (turnover not more than NGN 100 million AND total fixed assets
+  not more than NGN 250 million): 0% tax rate
+- Eligible (labelled) startups: EXEMPT
+- Compensation relief: 50% additional deduction for salary increases, wage
+  awards, or transport subsidies for low-income workers
+- Employment relief: 50% deduction for salaries of new employees hired and
+  retained for at least three years
+- Tax holiday for first 5 years for agricultural businesses (crop production,
+  livestock, dairy, etc.)
+- Gains from investment in a labelled startup by venture capitalist, private
+  equity fund, accelerators or incubators
+
+DEVELOPMENT LEVY — EXEMPT
+--------------------------
+- Small companies are exempt from 4% development levy
+
+WITHHOLDING TAX — EXEMPT
+-------------------------
+- Small companies, manufacturers and agric businesses are exempt from
+  withholding tax deduction on their income
+- Small companies are exempt from deduction on their payments to suppliers
+
+VALUE ADDED TAX (VAT) — 0% OR EXEMPT
+--------------------------------------
+- Basic food items: 0% VAT
+- Rent: EXEMPT
+- Education services and materials: 0% VAT
+- Health and medical services: EXEMPT
+- Pharmaceutical products: 0% VAT
+- Small companies (NGN 100m or less turnover): exempt from charging VAT
+- Diesel, petrol, and solar power equipment: VAT suspended or exempt
+- Refund of VAT on assets and overheads to produce VATable or 0% VAT goods
+- Agricultural inputs (fertilizers, seeds, seedlings, feeds, live animals)
+- Purchase, lease or hire of equipment for agric purposes
+- Disability aids (hearing aids, wheelchairs, braille materials)
+- Transport: shared passenger road transport (non-charter)
+- Electric vehicles and parts: EXEMPT
+- Humanitarian supplies: EXEMPT
+- Baby products
+- Sanitary towels, pads or tampons
+- Land and building
+
+STAMP DUTIES — EXEMPT
+----------------------
+- Electronic money transfers below NGN 10,000
+- Salary payments
+- Intra-bank transfers
+- Transfers of government securities or shares
+- All documents for transfer of stocks and shares
+
+================================================================================
+SECTION 2: KEY FACTS AT A GLANCE
+================================================================================
+
+PAYE System:
+  Six-bracket progressive system under the Personal Income Tax Act (PITA).
+  State IRS administers for private sector employees.
+
+Tax Brackets (2026):
+  7%   on first NGN 300,000 of annual taxable income
+  11%  on NGN 300,001 – 600,000
+  15%  on NGN 600,001 – 1,100,000
+  19%  on NGN 1,100,001 – 1,600,000
+  21%  on NGN 1,600,001 – 3,200,000
+  24%  above NGN 3,200,000
+
+Personal Relief / Allowance:
+  Consolidated Relief Allowance (CRA):
+  Higher of (1% of gross OR NGN 200,000) PLUS 20% of gross income.
+  Deducted before brackets are applied.
+
+Social Security Contributions:
+  Pension (CPS): Employee contributes 8% of gross emoluments — tax-deductible.
+  NHF: Employee contributes 2.5% of basic salary — tax-deductible.
+
+Tax Authority:
+  - Federal Inland Revenue Service (FIRS): federal employees
+  - State Internal Revenue Service (SIRS): private sector employees
+  - Website: firs.gov.ng
+
+Tax Year: January 1 – December 31
+
+================================================================================
+SECTION 3: INTRODUCTION — NIGERIA PAYE SYSTEM
+================================================================================
+
+Nigeria's personal income tax is governed by the Personal Income Tax Act
+(PITA), with PAYE deducted at source by employers for all employees working in
+Nigeria. The Federal Inland Revenue Service (FIRS) oversees federal employees,
+while State Internal Revenue Services administer PAYE for employees in their
+respective states.
+
+PITA rates are uniform nationally — states do not set different income tax
+rates. However, PAYE for private sector employees is remitted to the State IRS
+of the state where the employee works (not where the employer is registered).
+
+The defining feature of Nigeria's PAYE system is the Consolidated Relief
+Allowance (CRA): before any brackets are applied, employees deduct the higher
+of 20% of gross income or NGN 200,000, plus an additional fixed NGN 200,000.
+Pension contributions (8% under the CPS) and National Housing Fund (NHF)
+contributions (2.5% of basic salary) further reduce taxable income.
+
+================================================================================
+SECTION 4: NIGERIA INCOME TAX BRACKETS 2026
+================================================================================
+
+Brackets apply to taxable income after CRA, pension, NHF, and other approved
+deductions have been subtracted from gross income.
+
+Annual Taxable Income (NGN)     | Marginal Rate | Max Tax on Band
+--------------------------------|---------------|----------------
+NGN 0 – 300,000                 | 7%            | NGN 21,000
+NGN 300,001 – 600,000           | 11%           | NGN 33,000
+NGN 600,001 – 1,100,000         | 15%           | NGN 75,000
+NGN 1,100,001 – 1,600,000       | 19%           | NGN 95,000
+NGN 1,600,001 – 3,200,000       | 21%           | NGN 336,000
+Above NGN 3,200,000             | 24%           | Uncapped
+
+Minimum Tax Rule:
+  If total PAYE is less than 1% of gross income, PAYE is set at 1% of gross.
+  This typically only affects employees with very high deductions relative to
+  income.
+
+State vs. Federal:
+  PITA rates are uniform across all 36 states and the FCT. PAYE for private
+  sector employees is remitted to the State IRS of the state where the employee
+  works — not where the employer is registered.
+
+================================================================================
+SECTION 5: CONSOLIDATED RELIEF ALLOWANCE (CRA) EXPLAINED
+================================================================================
+
+The CRA is the cornerstone of Nigeria's PITA and the primary reason effective
+tax rates are well below headline brackets for most formal sector workers.
+
+CRA Formula:
+  The higher of:
+    (a) 1% of gross income, OR
+    (b) NGN 200,000
+  PLUS 20% of gross income as an additional allowance.
+
+In practice, for almost all employees:
+  CRA = NGN 200,000 + 20% of gross income
+
+Examples:
+  At NGN 2,400,000/year gross (NGN 200,000/month):
+    CRA = NGN 200,000 + (20% x NGN 2,400,000) = NGN 680,000
+
+  At NGN 6,000,000/year gross (NGN 500,000/month):
+    CRA = NGN 200,000 + (20% x NGN 6,000,000) = NGN 1,400,000
+
+  At NGN 12,000,000/year gross (NGN 1,000,000/month):
+    CRA = NGN 200,000 + (20% x NGN 12,000,000) = NGN 2,600,000
+
+Pension contributions are also fully deductible, making them tax-efficient.
+
+================================================================================
+SECTION 6: WORKED EXAMPLES — PAYE AT COMMON SALARY LEVELS
+================================================================================
+
+EXAMPLE 1: NGN 200,000/month (NGN 2,400,000/year gross)
+---------------------------------------------------------
+CRA:             NGN 200,000 + (20% x 2,400,000) = NGN 680,000
+Pension (8%):    NGN 192,000/year
+NHF (2.5%):      NGN 60,000/year
+Taxable income:  NGN 2,400,000 - 680,000 - 192,000 - 60,000 = NGN 1,468,000
+
+Tax calculation:
+  7%  x NGN 300,000  = NGN 21,000
+  11% x NGN 300,000  = NGN 33,000
+  15% x NGN 500,000  = NGN 75,000
+  19% x NGN 368,000  = NGN 69,920
+
+Annual PAYE:           NGN 198,920 (~NGN 16,577/month)
+Effective rate on gross: ~8.3%
+Monthly pension:       NGN 16,000
+Monthly NHF:           NGN 5,000
+Net take-home:         ~NGN 162,423/month
+
+EXAMPLE 2: NGN 500,000/month (NGN 6,000,000/year gross)
+---------------------------------------------------------
+CRA:             NGN 200,000 + (20% x 6,000,000) = NGN 1,400,000
+Pension (8%):    NGN 480,000/year
+NHF (2.5%):      NGN 150,000/year
+Taxable income:  NGN 6,000,000 - 1,400,000 - 480,000 - 150,000 = NGN 3,970,000
+
+Tax calculation:
+  7%  x NGN 300,000    = NGN 21,000
+  11% x NGN 300,000    = NGN 33,000
+  15% x NGN 500,000    = NGN 75,000
+  19% x NGN 500,000    = NGN 95,000
+  21% x NGN 1,600,000  = NGN 336,000
+  24% x NGN 770,000    = NGN 184,800
+
+Annual PAYE:           NGN 744,800 (~NGN 62,067/month)
+Effective rate on gross: ~12.4%
+Monthly pension:       NGN 40,000
+Monthly NHF:           NGN 12,500
+Net take-home:         ~NGN 385,433/month
+
+EXAMPLE 3: NGN 1,000,000/month (NGN 12,000,000/year gross)
+------------------------------------------------------------
+CRA:             NGN 200,000 + (20% x 12,000,000) = NGN 2,600,000
+Pension (8%):    NGN 960,000/year
+NHF (2.5%):      NGN 300,000/year
+Taxable income:  NGN 12,000,000 - 2,600,000 - 960,000 - 300,000 = NGN 8,140,000
+
+Tax calculation:
+  7%-21% on first NGN 3,200,000  = NGN 560,000
+  24% x NGN 4,940,000            = NGN 1,185,600
+
+Annual PAYE:           NGN 1,745,600 (~NGN 145,467/month)
+Effective rate on gross: ~14.5%
+Monthly pension:       NGN 80,000
+Monthly NHF:           NGN 25,000
+Net take-home:         ~NGN 749,533/month
+
+================================================================================
+SECTION 7: PENSION (CPS) AND NHF PAYROLL DEDUCTIONS
+================================================================================
+
+CONTRIBUTORY PENSION SCHEME (CPS) — Employee: 8%
+-------------------------------------------------
+Under the Pension Reform Act 2014, employees contribute 8% of monthly total
+emoluments (basic salary + housing allowance + transport allowance) to a
+Retirement Savings Account (RSA) with a Pension Fund Administrator (PFA) of
+their choice.
+
+Employer contributes a minimum of 10% (some contribute 12% or higher).
+Contributions are invested by the PFA in a diversified portfolio.
+The employer remits combined contributions monthly to the selected PFA.
+Pension contributions are FULLY DEDUCTIBLE from PAYE taxable income.
+
+NATIONAL HOUSING FUND (NHF) — Employee: 2.5% of basic salary
+-------------------------------------------------------------
+Employees in the public sector and private companies with 10 or more employees
+contribute 2.5% of basic monthly salary to the Federal Mortgage Bank of Nigeria
+(FMBN).
+
+NHF contributions are TAX-DEDUCTIBLE.
+NHF contributions accumulate and can be accessed through NHF-backed mortgage
+loans for residential property purchase.
+NHF is distinct from pension — it is a housing-specific fund.
+
+NSITF — Employer Only: 1% of total emoluments
+----------------------------------------------
+The National Social Insurance Trust Fund (NSITF) requires employers to
+contribute 1% of total emoluments for workplace injury insurance.
+This is an EMPLOYER-ONLY cost and does not reduce employee take-home pay.
+
+================================================================================
+SECTION 8: PAYE FILING — EMPLOYER AND EMPLOYEE OBLIGATIONS
+================================================================================
+
+Monthly PAYE Remittance:
+  PAYE deducted must be remitted to the relevant State IRS by the 10th of the
+  following month.
+
+Annual Employer Return:
+  File annual PAYE return (Form H1) with State IRS by 31 January.
+  Shows total PAYE deducted from each employee during the preceding year.
+
+Employee Annual Return:
+  Employees with non-PAYE income (business, rental, investment) must file an
+  annual return with their State IRS by 31 March.
+  PAYE withheld is credited against the annual liability.
+
+TIN Registration:
+  All employees must have a Tax Identification Number (TIN).
+  Registration: tin.firs.gov.ng or State IRS offices.
+  Required for banking, property transactions, vehicle registration, and most
+  formal commercial activities.
+
+Tax Clearance Certificate (TCC):
+  Required for government contracts, importing, and many professional licences.
+  Apply through State IRS or FIRS after filing all returns and settling
+  outstanding tax. Issued for three years.
+
+================================================================================
+SECTION 9: FAQ — NIGERIA PAYE
+================================================================================
+
+Q: What is Nigeria PAYE?
+A: PAYE (Pay As You Earn) is Nigeria's system of withholding personal income
+tax from employees' salaries at source. Employers calculate monthly PAYE using
+PITA brackets (applied after deducting CRA, pension, and NHF), deduct it from
+gross salary, and remit to the relevant State IRS (or FIRS for federal
+employees) by the 10th of the following month. The legal framework is PITA.
+
+Q: What is the Consolidated Relief Allowance (CRA) in Nigeria?
+A: The CRA is a mandatory deduction from gross employment income before PAYE
+brackets are applied. It equals NGN 200,000 plus 20% of gross annual income.
+For example, at NGN 6,000,000 gross: CRA = NGN 200,000 + NGN 1,200,000 =
+NGN 1,400,000. The CRA significantly reduces taxable income.
+
+Q: How do I calculate my Nigeria PAYE?
+A: (1) Determine annual gross income. (2) Compute CRA: NGN 200,000 + 20% of
+gross. (3) Subtract pension (8% of total emoluments) and NHF (2.5% of basic
+salary). (4) Subtract CRA to get taxable income. (5) Apply PITA brackets:
+7% on first NGN 300,000; 11% on NGN 300,001–600,000; 15% on NGN 600,001–1.1M;
+19% on NGN 1.1M–1.6M; 21% on NGN 1.6M–3.2M; 24% above NGN 3.2M.
+
+Q: What are pension contributions in Nigeria?
+A: Under the CPS, employees contribute 8% of monthly total emoluments to an
+RSA with a PENCOM-licensed PFA. Employers contribute a minimum of 10%.
+Contributions are fully deductible from PAYE taxable income.
+
+Q: Does the state you work in affect your Nigeria PAYE rate?
+A: The PITA tax brackets and CRA are uniform across all 36 states and the FCT.
+However, PAYE for private sector employees is administered by the State IRS of
+the state where the employee works (not where the employer is registered).
+
+Q: What is Nigeria's top income tax rate?
+A: Nigeria's top PITA rate is 24%, applying to annual taxable income (after CRA
+and other deductions) above NGN 3,200,000. The effective rate on gross salary
+is typically in the 8–18% range for most formal sector employees.
+
+Q: When is Nigeria's tax year?
+A: January 1 to December 31. Monthly PAYE remittances are due by the 10th of
+the following month. Annual PAYE returns (Form H1) are due by 31 January.
+Individual income tax returns are due by 31 March.
+
+Q: What is the NHF contribution and how does it work?
+A: Employees in the formal sector contribute 2.5% of basic monthly salary to
+the Federal Mortgage Bank of Nigeria (FMBN). Mandatory for employers with 10 or
+more employees. Contributions are tax-deductible and accumulate in a member
+account. Contributors can access NHF mortgage loans at 6% fixed interest for
+residential property purchase in Nigeria.

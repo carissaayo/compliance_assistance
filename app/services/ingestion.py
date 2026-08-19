@@ -7,15 +7,18 @@ from app.models.chunk import Chunk
 from app.models.document import Document, DocumentStatus
 from app.services.chunker import chunk_pages
 from app.services.embedding.factory import get_embedding_provider
-from app.services.pdf_extractor import extract_text_by_page
+from app.services.pdf_extractor import extract_text_by_page, extract_text_from_txt
 
 
-def ingest_document(db: Session, document: Document, file_path:Path) ->Document:
+def ingest_document(db: Session, document: Document, file_path: Path) -> Document:
     document.status = DocumentStatus.processing
     db.commit()
 
     try:
-        pages = extract_text_by_page(file_path)
+        if file_path.suffix.lower() == ".txt":
+            pages = extract_text_from_txt(file_path)
+        else:
+            pages = extract_text_by_page(file_path)
         chunk_data = chunk_pages(pages)
         
         if not chunk_data:

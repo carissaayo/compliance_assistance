@@ -1,0 +1,156 @@
+National Housing Fund (NHF) — Guide for Employers and Employees
+================================================================
+Source: Federal Mortgage Bank of Nigeria (FMBN)
+Legal Basis: NHF Act No. 3 of 1992
+
+================================================================================
+SECTION 1: AIMS AND OBJECTIVES
+================================================================================
+
+The National Housing Fund (NHF) was established to:
+
+- Mobilise funds for the provision of affordable residential houses for Nigerians.
+- Require Commercial and Merchant Banks to invest 10% of their loans and
+  advances portfolio in housing.
+- Require Insurance Companies to invest 20% of non-life and 40% of life funds
+  in the housing sector, with 50% of these directly in the NHF.
+- Channel Federal Government financial contributions into housing.
+
+================================================================================
+SECTION 2: FUNDING SOURCES
+================================================================================
+
+The NHF is funded by:
+
+1. Mandatory contribution of 2.5% of monthly income of Nigerians earning
+   NGN 3,000 and above per annum (from employees).
+2. 10% of loans and advances portfolio from Commercial and Merchant Banks.
+3. Federal Government financial contributions.
+
+================================================================================
+SECTION 3: CONTRIBUTION RATE
+================================================================================
+
+- Rate: 2.5% of monthly basic salary/income
+- Who must contribute: All Nigerians in employment (whether self-employed or
+  in paid employment) earning NGN 3,000 or above per annum.
+- Mandatory for: Employers with 10 or more employees (private sector) and all
+  public sector employees.
+- Deduction: Monthly, at source by the employer.
+- Tax treatment: NHF contributions are TAX-DEDUCTIBLE (deducted before PAYE
+  brackets are applied under PITA).
+
+================================================================================
+SECTION 4: BENEFITS OF THE NHF
+================================================================================
+
+- Housing loan of up to 90% of the cost of the house.
+- Interest on loans remains fixed throughout the life of the mortgage at 6% p.a.
+- Long repayment period of up to 30 years.
+- Contributions can serve as additional old age security.
+- Up to NGN 50 million can be borrowed.
+- Refunds with 2% interest on retirement.
+- Monthly loan repayment is approximately the same as a typical monthly rent.
+- Every contributor receives:
+  - A lifetime registration number
+  - A passbook for personal recording of contributions
+  - Annual account statement
+
+================================================================================
+SECTION 5: ELIGIBILITY
+================================================================================
+
+To be eligible for NHF benefits:
+- Register via NHF Form 1 (employer) and NHF Form 2 (employee).
+- Deduct and remit monthly contributions to FMBN promptly (at least 6 months
+  of contributions must have been made).
+- Maintain a passbook updated by the employer (transferable from one employment
+  to another).
+- Receive a yearly statement of cumulative contributions plus accrued interest.
+- Apply through any accredited Primary Mortgage Bank (PMB).
+- Applicant must provide satisfactory evidence of regular income.
+
+================================================================================
+SECTION 6: PROCEDURE FOR REGISTRATION
+================================================================================
+
+All Nigerians in employment, whether self-employed or in paid employment, are
+required by the NHF Act No. 3 of 1992 to contribute 2.5% of their monthly
+salary/income to the fund.
+
+Registration steps:
+
+1. FMBN supplies Employer Registration Form (NHF 1) to employers.
+2. Employer completes Form NHF 1 and returns to the nearest FMBN branch.
+3. FMBN registers the employer and issues an employer registration number.
+4. FMBN issues Form NHF 2 to employers for completion by employees (or
+   directly to self-employed individuals).
+5. Employee completes Form NHF 2 and returns it to the employer.
+6. Employer (or self-employed individual) returns completed Form NHF 2 to FMBN.
+7. FMBN registers employees on Form NHF 2 and allocates participation numbers.
+8. FMBN issues a passbook to each registered employee where monthly deductions
+   are posted by the employer.
+9. Employer commences deduction of contributions at source and remits with a
+   schedule of payment indicating amounts and period covered.
+10. Self-employed contributors commence monthly remittances of contributions
+    to FMBN.
+11. FMBN accepts contributions and issues receipts for payments.
+
+================================================================================
+SECTION 7: CONDITIONS FOR REFUND
+================================================================================
+
+A contributor is entitled to a refund of NHF contributions in the following
+circumstances:
+
+- Has attained 60 years of age, OR has put in 35 years in service.
+- Obtained a loan, fully liquidated it, AND has attained 60 years or 35 years
+  in service.
+- Has retired and is incapable of continuing contributions (medical grounds).
+
+Retirement age by profession:
+  - Professors, Judges, and Medical Consultants: 70 years
+  - Academic, Non-Academic Staff, Judicial Staff: 65 years
+  - Military Officers: 62 years
+
+- Refund is made to the next-of-kin in case of a deceased contributor.
+
+================================================================================
+SECTION 8: DOCUMENTS REQUIRED FOR REFUND OF CONTRIBUTION
+================================================================================
+
+To apply for a refund of NHF contributions, the following documents are required:
+
+1. Application letter requesting refund
+2. Letter of offer of appointment
+3. Birth certificate or Declaration of age certificate
+4. Completed NHF Contribution withdrawal forms
+5. Bank account details for payment
+6. Medical report (if incapable of continuing contributions)
+7. Letter of administration and Death Certificate (if applicable)
+8. Evidence of contribution (receipt for self-employed contributor)
+9. Biometric Verification Number (BVN)
+
+================================================================================
+SECTION 9: RELATIONSHIP WITH PAYE AND PENSION
+================================================================================
+
+NHF vs. Pension (CPS):
+  - NHF is a HOUSING-SPECIFIC fund — not a retirement fund.
+  - Pension (CPS) is a RETIREMENT fund managed by PFAs licensed by PenCom.
+  - Both are separate mandatory deductions and both are tax-deductible.
+
+NHF and PAYE:
+  - NHF contribution (2.5% of basic salary) is deducted BEFORE PAYE brackets
+    are applied.
+  - This reduces the employee's taxable income, resulting in lower PAYE.
+
+Summary of mandatory payroll deductions for a private sector employee:
+  | Deduction          | Rate              | Base              | Tax Treatment   |
+  |--------------------|-------------------|-------------------|-----------------|
+  | Pension (CPS)      | 8% (employee)     | Total emoluments  | Tax-deductible  |
+  | NHF                | 2.5%              | Basic salary      | Tax-deductible  |
+  | NSITF              | 1% (employer only)| Total emoluments  | Employer cost   |
+  | PAYE               | 7% – 24%          | Taxable income    | N/A             |
+
+Note: NSITF is an employer-only contribution and does not reduce employee pay.
