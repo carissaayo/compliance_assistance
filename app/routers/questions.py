@@ -23,3 +23,9 @@ async def keyword_only(request: QuestionRequest, db: DbSession):
  
 
     return retrieve_keyword(db, request.question)
+
+@router.post("/hybrid")
+async def hybrid_only(request: QuestionRequest, db: DbSession):
+    from app.services.retrieval import retrieve_hybrid
+
+    return retrieve_hybrid(db, request.question)

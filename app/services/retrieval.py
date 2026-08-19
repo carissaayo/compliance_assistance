@@ -1,5 +1,6 @@
 from sqlalchemy import func, select
 
+from app.config import settings
 from app.db.session import DbSession
 from app.models.chunk import Chunk
 from app.models.chunk_response import ChunkResponse
@@ -65,6 +66,8 @@ def retrieve_hybrid(
 
     # vector score = cosine distance (lower = better), normalise to 0-1 similarity
     for chunk in vector_hits:
+        if chunk.score > settings.retrieval_max_distance: 
+            continue
         similarity = 1.0 - chunk.score  # flip: higher is now better
         seen[chunk.position] = ChunkResponse(
             content=chunk.content,

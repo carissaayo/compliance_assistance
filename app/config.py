@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     openai_api_key: str = ""
     llm_provider: Literal["openai", "ollama"] = "ollama"
     llm_model: str = "qwen3:8b"
-    retrieval_max_distance: float = 0.6  # refuse above this (cosine distance)
+    retrieval_max_distance: float = 0.5  
     database_url: str = "postgresql+psycopg://postgres:postgres@localhost:5440/naijapay_rag"
     redis_url: str = "redis://localhost:6380/0"
 

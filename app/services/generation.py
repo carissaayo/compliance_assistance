@@ -5,7 +5,7 @@ from app.db.session import DbSession
 from app.models.answer_response import AnswerResponse
 from app.models.chunk_response import ChunkResponse
 from app.services.llm.factory import get_llm_provider
-from app.services.retrieval import retrieve_vector
+from app.services.retrieval import retrieve_hybrid
 
 INSUFFICIENT_GROUNDING_MESSAGE = (
     "I don't have enough grounding in the uploaded documents to answer that."
@@ -51,10 +51,10 @@ Excerpts:
 
 
 def generate_answer(db: DbSession, question: str) -> AnswerResponse:
-    chunks = retrieve_vector(db, question)
+    chunks = retrieve_hybrid(db, question)
     prompt_chunks = chunks[:GENERATION_TOP_K]
 
-    if not chunks or chunks[0].score > settings.retrieval_max_distance:
+    if not chunks:
         return AnswerResponse(
             answer=INSUFFICIENT_GROUNDING_MESSAGE,
             grounded=False,
